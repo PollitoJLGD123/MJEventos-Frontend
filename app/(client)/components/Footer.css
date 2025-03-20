@@ -1,6 +1,6 @@
 /* Estilos generales */
 .mainFooter {
-  background-color: #333333;
+  background-color: black;
 }
 
 .footerContenido {
@@ -22,7 +22,7 @@
 .listaFooter a,
 .listaFooter li {
   text-decoration: none;
-  color: rgb(168, 168, 168);
+  color: white;
   display: flex;
   margin-bottom: 20px;
   font-size: 13px;

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #7b22b3;
+  background-color: black;
   box-shadow: 0px 2px 20px #333333;
   position: relative; 
   z-index: 100;
@@ -43,7 +43,7 @@
 .menuHorizontal p {
   text-decoration: none;
   display: block;
-  color: white;
+  color: #f1b647;
   font-size: 12;
   font-weight: bold;
   padding: 15px;
@@ -66,7 +66,7 @@
   position: absolute;
   width: 200px;
   z-index: 1000;
-  background-color: #7b22b3;
+  background-color: black;
   top: 50px;
   list-style: none;
   padding: 0;
