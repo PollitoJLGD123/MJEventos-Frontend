@@ -8,14 +8,11 @@ export default function Clientes() {
   const intervalRef = useRef(null);
   const timeoutRef = useRef(null); 
   const clientes = [
-    { src: "/image-home/contigo_voy.svg", alt: "Contigo Voy logo"},
-    { src: "/image-home/digimedia.svg", alt: "Digimedia logo"},
-    { src: "/image-home/nhl.svg", alt: "NHL logo"},
-    { src: "/image-home/tami.svg", alt: "Tami logo"},
-    { src: "/image-home/yuntas.svg", alt: "Yuntas logo"},
-    { src: "/image-home/prevemedic.svg", alt: "prevemedic logo"},
-    { src: "/image-home/mj_eventos.svg", alt: "MJ eventos logo"},
-    { src: "/image-home/asden.svg", alt: "Asden logo"},
+    { src: "/image-home/neonLedPublicidad.png", alt: "Contigo Voy logo"},
+    { src: "/image-home/digimedia.png", alt: "Digimedia logo"},
+    { src: "/image-home/nhl.png", alt: "NHL logo"},
+    { src: "/image-home/tami.png", alt: "Tami logo"},
+    { src: "/image-home/yuntas.png", alt: "Yuntas logo"},
     
   ];
 
@@ -84,8 +81,8 @@ export default function Clientes() {
   {/* SECCIÓN NUESTROS CLIENTES */}
 
   return (
-    <section className="my-6 mx-12">
-      <h3 className="text-2xl text-[#752E75]">NUESTROS CLIENTES</h3>
+    <section className="py-6 px-12 bg-[#151515]">
+      <h3 className="text-3xl text-[#f1b647] text-center">Empresas que confían en nosotros</h3>
 
       <div className="relative w-full md:hidden overflow-hidden" data-carousel="slide">
         
@@ -142,7 +139,7 @@ export default function Clientes() {
           <span className="text-[#752E75] text-3xl">&#10095;</span>
         </button>
       </div>
-      <div className="hidden md:flex justify-center items-center border-b-[1px] max-w-max m-auto border-[#752E75] flex-wrap ">
+      <div className="hidden md:flex gap-14 justify-center items-center max-w-max m-auto flex-wrap py-20">
         {clientes.map((cliente) => (
           <a
             key={cliente.alt}
@@ -150,7 +147,7 @@ export default function Clientes() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className={`w-60 ${cliente.alt === "prevemedic logo" ? "scale-150" : ""}`} 
+            <img className={`w-[200px] ${cliente.alt === "prevemedic logo" ? "scale-150" : ""}`} 
               src={cliente.src} 
               alt={cliente.alt}  />
           </a>
