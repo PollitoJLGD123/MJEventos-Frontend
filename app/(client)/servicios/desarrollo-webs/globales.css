@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrado en móvil */
-    background: linear-gradient(90deg, #c026d3, #e879f9, #ffffff);
+    background: linear-gradient(90deg, #f1b647, #f1b647, #ffffff);
     padding: 2rem 4rem;
     border-radius: 15px;
     text-align: center; /* Centra el texto en móvil */
@@ -23,7 +23,7 @@
       text-align: left;
       margin-left: 0; /* Elimina el centrado */
       margin-right: auto; /* Empuja a la izquierda */
-      transform: translateX(-200px); /* Lo mueve más a la izquierda */
+      transform: translateX(-90px); /* Lo mueve más a la izquierda */
     }
   }
   /* 🌟 Estilos para Floating Text 2 */
@@ -44,7 +44,7 @@
 /* 📱 Versión Móvil: Baja solo el texto 2 sin afectar otros */
 @media (max-width: 1023px) {
   .floating-text2 {
-    top: 200px; /* Solo afecta a Floating Text 2 */
+    top: 100px; /* Solo afecta a Floating Text 2 */
   }
 }
 
@@ -52,8 +52,8 @@
 @media (min-width: 1024px) {
   .floating-text2 {
     top: 70px;
-    left: 5%;
-    max-width: 500px;
+    left: 24%;
+    max-width: 700px;
     text-align: left;
   }
 }
@@ -76,20 +76,55 @@
 /* 📱 Versión Móvil: Baja solo el texto 3 sin afectar otros */
 @media (max-width: 1023px) {
   .floating-text3 {
-    top: 520px; /* Solo afecta a Floating Text 3 */
+    top: 220px; /* Solo afecta a Floating Text 3 */
   }
 }
 
 /* 🖥 Versión PC */
 @media (min-width: 1024px) {
   .floating-text3 {
-    top: 300px;
-    left: 4%;
-    max-width: 500px;
+    top: 150px;
+    left: 19%;
+    max-width: 600px;
     text-align: left;
   }
 }
 
+/* 🌟 Estilos para Floating Text 3 */
+.floating-text4 {
+    width: 100%;
+    text-align: center; 
+    padding: 0 1.5rem;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: bold;
+    color: #ff4b2b;
+    text-shadow: 3px 3px 10px rgba(255, 75, 43, 0.8);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px; /* Ajuste base */
+  }
+  
+  /* 📱 Versión Móvil: Baja solo el texto 3 sin afectar otros */
+  @media (max-width: 1023px) {
+    .floating-text4 {
+      top: 420px; /* Solo afecta a Floating Text 3 */
+      transform: translateX(-50%) scale(0.9); /* Hace el texto un poco más pequeño */
+    }
+  }
+  
+  /* 🖥 Versión PC */
+  @media (min-width: 1024px) {
+    .floating-text4 {
+      top: 130px;
+      left: 38%;
+      max-width: 500px;
+      text-align: left;
+      transform: translateX(0) scale(1.1); /* Hace el texto un poco más grande */
+    }
+  }
+  
 
   .custom-web2 h1 {
     font-size: 3rem;
