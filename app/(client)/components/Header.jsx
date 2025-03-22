@@ -47,18 +47,6 @@ export default function Header2() {
               <p>Servicios &#9660;</p>
               {isServiceOpen && (
                 <ul className="menuVertical">
-                  <li className={isActive('/servicios/desing-desarrollo') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/desing-desarrollo">Diseño y Desarrollo Web</Link>
-                  </li>
-                  <li className={isActive('/servicios/gestion-redes') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/gestion-redes">Gestión de Redes Sociales</Link>
-                  </li>
-                  <li className={isActive('/servicios/marketing-gestion') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/marketing-gestion">Marketing y Gestión Digital</Link>
-                  </li>
-                  <li className={isActive('/servicios/branding-desing') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/branding-desing">Branding y Diseño</Link>
-                  </li>
                   <li className={isActive('/servicios/ui') ? 'active-sub' : ''} onClick={closeMenu}>
                     <Link href="/servicios/ui">Diseño UX/UI</Link>
                   </li>
@@ -82,6 +70,12 @@ export default function Header2() {
                   </li>
                   <li className={isActive('/servicios/identidad-visual') ? 'active-sub' : ''} onClick={closeMenu}>
                     <Link href="/servicios/identidad-visual">Identidad Visual</Link>
+                  </li>
+                  <li className={isActive('/servicios/eventos-empresariales') ? 'active-sub' : ''} onClick={closeMenu}>
+                    <Link href="/servicios/eventos-empresariales">Eventos Empresariales</Link>
+                  </li>
+                  <li className={isActive('/servicios/quince-eventos') ? 'active-sub' : ''} onClick={closeMenu}>
+                    <Link href="/servicios/quince-eventos">Fiestas de Quince Años</Link>
                   </li>
                 </ul>
               )}
