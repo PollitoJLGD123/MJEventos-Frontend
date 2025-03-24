@@ -9,7 +9,6 @@ export default function Home() {
     <>
       <Banner />
       <Servicios />
-      <Testimonios />
       <Clientes />
       <WhatsAppButton />
     </>

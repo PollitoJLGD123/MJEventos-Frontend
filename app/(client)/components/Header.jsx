@@ -25,7 +25,7 @@ export default function Header2() {
         <div className="logoHeader flex items-center">
           <Link href="/" onClick={closeMenu}>
             <img
-              src="/headerFooter/logoblanco2.webp"
+              src="/image-home/mj_eventos.svg"
               alt="Digimedia"
               width="190px"
               height="65px"
