@@ -47,6 +47,25 @@
     transform: scale(1.1);
     z-index: 10;
 }
+.nuestroServicio {
+    background-color: #f1b647;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1), 
+                background-color 1s ease;
+}
+
+.nuestroServicio:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
 
 .service img {
     width: 100px;

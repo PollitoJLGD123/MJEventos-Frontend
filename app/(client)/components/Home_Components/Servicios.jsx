@@ -12,29 +12,37 @@ function services() {
                         <p className='text-white text-center p-2'>Ofrecemos una amplia gama de mobiliario y accesorios para todo tipo de celebraciones:</p>
                     </div>
                     <div className="services-4">
-                        <div className="services">
-                            <div href="/servicios/desing-desarrollo" className="bg-[#f1b647] px-10 h-[200px] flex flex-col items-center justify-center">
-                                <img src="/image-home/icon1.svg" alt="Diseño y Desarrollo Web" />
+                        <div className="flex gap-2">
+                            <Link href="/" className="nuestroServicio">
+                                <img src="/image-home/nuestros-servicios/img-eventos-empresariales.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
                                 <h3 className='p-2'>Eventos empresariales</h3>
-                            </div>
-
-                            <Link href="/servicios/gestion-redes" className="service">
-                                <img src="/image-home/icon2.svg" alt="Gestión de Redes Sociales" />
-                                <h3>Gestión de Redes Sociales</h3>
-                                <p>"Aumenta tu presencia online y conectamos con tu audiencia"</p>
                             </Link>
 
-                            <Link href="/servicios/branding-desing" className="service">
-                                <img src="/image-home/icon3.svg" alt="Branding y Diseño" />
-                                <h3>Branding y Diseño</h3>
-                                <p>"Construimos una identidad visual fuerte y memorable"</p>
+                            <Link href="/" className="nuestroServicio">
+                                <img src="/image-home/nuestros-servicios/img-quince.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
+                                <h3 className='p-2'>Fiestas de quince años</h3>
                             </Link>
 
-                            <Link href="/servicios/marketing-gestion" className="service">
-                                <img src="/image-home/icon4.svg" alt="Marketing y Gestión Digital" />
-                                <h3>Marketing y Gestión Digital</h3>
-                                <p>"Aumenta tu presencia en redes sociales y con marketing digital"</p>
+                            <Link href="/" className="nuestroServicio">
+                                <img src="/image-home/nuestros-servicios/img-bodas.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
+                                <h3 className='p-2'>Bodas</h3>
                             </Link>
+
+                            <Link href="/" className="nuestroServicio">
+                                <img src="/image-home/nuestros-servicios/img-bautizo.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
+                                <h3 className='p-2'>Bautizos</h3>
+                            </Link>
+
+                            <Link href="/" className="nuestroServicio">
+                                <img src="/image-home/nuestros-servicios/img-cumple.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
+                                <h3 className='p-2'>Cumpleaños</h3>
+                            </Link>
+
+                            <Link href="/" className="nuestroServicio">
+                                <img src="/image-home/nuestros-servicios/img-aniversario.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
+                                <h3 className='p-2'>Aniversarios</h3>
+                            </Link>
+
                         </div>
                     </div> 
                 </div>

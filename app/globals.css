@@ -1,6 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/telegraf');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Gilda+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Importar Tailwind */
 @tailwind base;
 @tailwind components;
@@ -9,10 +12,10 @@
 /* Estilos globales */
 body {
   @apply font-sans;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: 'Gilda Display', Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, title {
-  font-family: 'Telegraf', sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-weight: 400; /*Le estoy limitando los pesos para que el navegador no traiga todos y mejore en rendimiento*/
 }

@@ -4,7 +4,6 @@
 }
 
 .footerContenido {
-  padding: 70px 70px 0;
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -60,7 +59,6 @@
 }
 
 .rucFooter {
-  background-color: #333333;
   padding: 10px 30px;
   color: white; /* Color base para el contenedor */
   display: flex;

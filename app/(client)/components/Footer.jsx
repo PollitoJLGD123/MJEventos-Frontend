@@ -4,12 +4,13 @@ import './Footer.css';
 export default function Footer() {
   return (
     <>
-      <footer>
+      <footer className='pt-[50px] bg-black'>
         <div className="mainFooter">
+        <h2 className='text-white text-center pb-10'>"Contáctanos y hagamos de tu evento un éxito"</h2>
           <div className="footerContenido">
             <div className="imgFooter my-4">
               <img
-                src="/headerFooter/logoFooter.webp"
+                src="/image-home/mj_eventos.svg"
                 alt="Digimedia"
                 width="250px"
                 height="120px"
