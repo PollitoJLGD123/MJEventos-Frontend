@@ -12,7 +12,7 @@ const Nosotros = () => {
     const [showMision, setShowMision] = useState(false);
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-[#151515]">
             <div className="relative h-[400px] overflow-hidden">
                 <img
                     src="/Img-nosotros/NOSOTROS_1680_1050.webp"
@@ -26,7 +26,7 @@ const Nosotros = () => {
                             <div className="w-8 h-8 bg-white rounded-full opacity-80"></div>
                             <div className="w-8 h-8 bg-white rounded-full -ml-2 opacity-80"></div>
                         </div>
-                        <h1 className="text-5xl font-bold text-white tracking-wider shadow-lg">
+                        <h1 className="text-5xl font-bold text-[#ea9d2f] tracking-wider shadow-lg">
                             ¿QUIÉNES SOMOS?
                         </h1>
                     </div>
@@ -36,26 +36,26 @@ const Nosotros = () => {
                 <div className="mb-20">
                     <div className="flex items-center gap-4 mb-8">
                         <div className="w-12 h-1 bg-purple-600"></div>
-                        <h2 className="text-3xl font-bold text-gray-800">
+                        <h2 className="text-3xl font-bold text-[#ea9d2f]">
                             Nosotros
                         </h2>
                     </div>
-                    <p className="text-gray-700 text-lg leading-relaxed text-justify max-w-5xl">
-                        <strong>Digimedia</strong> es una empresa de marketing digital, que se enfoca en <strong>potenciar tu emprendimiento</strong> a nivel online. Además, le brinda a tu emprendimiento estrategias que ayudan a cumplir los objetivos de manera eficaz. Somos un grupo de personas comprometidas con el desarrollo de cada marca que nos contacta.
+                    <p className="text-white text-lg leading-relaxed text-justify max-w-5xl">
+                    En <strong>MJ Eventos Especiales</strong>,nos especializamos en la renta de toldos, mesas, sillas y mobiliario para todo tipo de eventos. Nos destacamos por nuestra puntualidad, calidad y atención al detalle, garantizando montajes impecables y adaptados a la visión de cada ocasión. Creamos ambientes armoniosos y confortables, combinando experiencia, elegancia e innovación para transformar espacios y hacer de tu evento algo inolvidable. ¡Hazlo un éxito con nosotros!
                     </p>
                 </div>
                 <div className="relative grid md:grid-cols-2 gap-16 mb-20">
                     {/* VISIÓN */}
                     <div
-                        className="group bg-white shadow-lg p-6 rounded-lg transition-transform transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
+                        className="group bg-black shadow-lg p-6 rounded-lg transition-transform transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
                         onClick={() => setShowVision(!showVision)}
                     >
                         <h3 className="text-2xl font-bold mb-4 text-gray-800 text-center">
-                            <span className="text-purple-600">VISIÓN</span>
+                            <span className="text-[#ea9d2f]">VISIÓN</span>
                         </h3>
                         {showVision && (
-                            <p className="text-gray-600 text-justify leading-relaxed">
-                                Liderar la transformación digital de las <strong>PYME</strong> en el Perú; estableciendo vínculos sólidos entre nuestros clientes y sus respectivas audiencias.
+                            <p className="text-white text-justify leading-relaxed">
+                                Ser la empresa líder en alquiler de toldos. mesas y sillas a nivel nacional, reconocida por nuestra innovación, excelencia y compromiso con la satisfacción del cliente. Buscamos expandir nuestra oferta con productos y diseños modernos y versátiles que se adapten a las necesidades de cada evento.
                             </p>
                         )}
                     </div>
@@ -63,15 +63,15 @@ const Nosotros = () => {
                     <div className="hidden md:block w-px bg-purple-600 absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2"></div>
                     {/* MISIÓN */}
                     <div
-                        className="group bg-white shadow-lg p-6 rounded-lg transition-transform transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
+                        className="group  bg-black shadow-lg p-6 rounded-lg transition-transform transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
                         onClick={() => setShowMision(!showMision)}
                     >
                         <h3 className="text-2xl font-bold mb-4 text-gray-800 text-center">
-                            <span className="text-purple-600">MISIÓN</span>
+                            <span className="text-[#ea9d2f]">MISIÓN</span>
                         </h3>
                         {showMision && (
-                            <p className="text-gray-600 text-justify leading-relaxed">
-                                Ser aliado de los <strong>emprendimientos</strong> en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.
+                            <p className="text-white text-justify leading-relaxed">
+                                Brindar soluciones versátiles y de calidad en alquiler de toldos, mesas y sillas para todo tipo de eventos en Lima, Perú, asegurando protección, innovación, confort y estética. Nos comprometemos a ofrecer un servicio eficiente, con materiales de alta durabilidad y un equipo profesional que garantice la mejor experiencia para nuestros clientes en ese día especial.          
                             </p>
                         )}
                     </div>
@@ -84,7 +84,7 @@ const Nosotros = () => {
             </a>
             <div className="flex justify-center pt-2 pb-16">
                 <img
-                    src="/Img-nosotros/infoNosotros.webp"
+                    src="/Img-nosotros/nosotrosmj.jpg"
                     alt="Información adicional"
                     className="w-full max-w-3xl h-auto rounded-lg shadow-lg"
                 />
