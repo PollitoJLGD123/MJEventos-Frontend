@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="footerContenido">
             <div className="imgFooter my-4">
               <img
-                src="/headerFooter/mjeventos.jpg"
+                src="/headerFooter/mjeventos2.jpg"
                 alt="Digimedia"
                 width="250px"
                 height="120px"
