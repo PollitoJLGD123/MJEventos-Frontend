@@ -47,32 +47,14 @@ export default function Header2() {
               <p>Servicios &#9660;</p>
               {isServiceOpen && (
                 <ul className="menuVertical">
-                  <li className={isActive('/servicios/ui') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/ui">Diseño UX/UI</Link>
-                  </li>
-                  <li className={isActive('/servicios/desarrollo-webs') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/desarrollo-webs">Desarrollo Web</Link>
-                  </li>
-                  <li className={isActive('/servicios/planificacion-cronograma') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/planificacion-cronograma">Planificacion y cronograma</Link>
-                  </li>
-                  <li className={isActive('/servicios/diseno-pautas') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/diseno-pautas">Diseño de Pautas</Link>
-                  </li>
-                  <li className={isActive('/servicios/analisis-y-benchmarking') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/analisis-y-benchmarking">Análisis de Benchmarking</Link>
-                  </li>
-                  <li className={isActive('/servicios/planificacion-estrategica') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/planificacion-estrategica">Planificación Estratégica</Link>
-                  </li>
-                  <li className={isActive('/servicios/desarrollo-briefs') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/desarrollo-briefs">Desarrollo Brief</Link>
-                  </li>
-                  <li className={isActive('/servicios/identidad-visual') ? 'active-sub' : ''} onClick={closeMenu}>
-                    <Link href="/servicios/identidad-visual">Identidad Visual</Link>
-                  </li>
                   <li className={isActive('/servicios/eventos-empresariales') ? 'active-sub' : ''} onClick={closeMenu}>
                     <Link href="/servicios/eventos-empresariales">Eventos Empresariales</Link>
+                  </li>
+                  <li className={isActive('/servicios/cumple-eventos') ? 'active-sub' : ''} onClick={closeMenu}>
+                    <Link href="/servicios/cumple-eventos">Cumpleaños</Link>
+                  </li>
+                  <li className={isActive('/servicios/aniversarios') ? 'active-sub' : ''} onClick={closeMenu}>
+                    <Link href="/servicios/aniversarios">Aniversarios</Link>
                   </li>
                   <li className={isActive('/servicios/quince-eventos') ? 'active-sub' : ''} onClick={closeMenu}>
                     <Link href="/servicios/quince-eventos">Fiestas de Quince Años</Link>
