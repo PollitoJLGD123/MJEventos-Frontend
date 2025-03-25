@@ -20,7 +20,9 @@ export default function AniversarioEventos() {
                 targets={targets}
             />
 
-            <Contactanos />
+            <Contactanos 
+            text={"Ya sean 25 o 50 años, creamos ambientes íntimos o festivos que honran tu trayectoria en pareja."}
+            />
         </>
     );
 }

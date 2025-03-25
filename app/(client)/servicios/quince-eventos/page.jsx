@@ -20,7 +20,9 @@ export default function QuinceEventos() {
                 targets={targets}
             />
 
-            <Contactanos />
+            <Contactanos
+            text={"Celebra tus 15 años bajo toldos que combinan elegancia y funcionalidad, diseñados para bodas de quince íntimas o fiestas temáticas al aire libre."}
+            />
         </>
     );
 }

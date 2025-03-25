@@ -20,7 +20,9 @@ export default function CumpleañosEventos() {
                 targets={targets}
             />
 
-            <Contactanos />
+            <Contactanos
+            text={"Celebra bajo toldos que resisten el sol, la lluvia o el viento, mientras creamos un ambiente colorido y temático para tu fiesta."}
+            />
         </>
     );
 }

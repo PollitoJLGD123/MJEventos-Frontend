@@ -20,7 +20,9 @@ export default function EventosEmpresariales() {
                 targets={targets}
             />
 
-            <Contactanos />
+            <Contactanos
+            text={"Toldos que protegen, embellecen y crean momentos inolvidables bajo cualquier clima."}
+            />
         </>
     );
 }
