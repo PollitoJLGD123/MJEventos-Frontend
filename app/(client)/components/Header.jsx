@@ -25,9 +25,9 @@ export default function Header2() {
         <div className="logoHeader flex items-center">
           <Link href="/" onClick={closeMenu}>
             <img
-              src="/headerFooter/logoblanco2.webp"
-              alt="Digimedia"
-              width="190px"
+              src="/headerFooter/mjeventos.jpg"
+              alt="Mjeventos"
+              width="110px"
               height="65px"
               className="my-auto"
             />
