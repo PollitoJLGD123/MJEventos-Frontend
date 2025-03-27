@@ -4,7 +4,7 @@ import React from "react";
 
 const Banner = () => (
   <div className="banner">
-    <img id="bannerImg" src="/contactanos/banner.webp" alt="Banner" />
+    <img id="bannerImg" src="/contactanos/eventos.jpg" alt="Banner" />
     <div className="overlay">
         <img
           className="iconBanner"
