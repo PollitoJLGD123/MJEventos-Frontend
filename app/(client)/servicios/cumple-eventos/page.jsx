@@ -1,6 +1,7 @@
 import React from 'react';
 import ServSec from '../components/ServSec';
 import Contactanos from '../components/Contactanos';
+import ModalButton from '../components/ModalButton';
 
 export default function CumpleañosEventos() {
     const targets = [
@@ -12,6 +13,12 @@ export default function CumpleañosEventos() {
 
     return (
         <>
+            <ModalButton
+            title="Celebra tu cumpleaños con estilo"
+            fondo="/servicios/desarrollo/modal-button/imagen.webp"
+            text="DISEÑO Y DESARROLLO WEB"
+            serviceName="1"
+                    />
             <ServSec
                 title="Cumpleaños"
                 subtitle=" Protección y Encanto para un Día Especial"

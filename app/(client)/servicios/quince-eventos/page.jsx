@@ -1,6 +1,7 @@
 import React from 'react';
 import ServSec from '../components/ServSec';
 import Contactanos from '../components/Contactanos';
+import ModalButton from '../components/ModalButton';
 
 export default function QuinceEventos() {
     const targets = [
@@ -12,6 +13,13 @@ export default function QuinceEventos() {
 
     return (
         <>
+            <ModalButton
+            title="Celebra tus 15 años con estilo"
+            fondo="/servicios/desarrollo/modal-button/imagen.webp"
+            text="DISEÑO Y DESARROLLO WEB"
+            serviceName="1"
+            />
+
             <ServSec
                 title="Fiesta de Quince Años"
                 subtitle=" Elegancia y Magia en Cada Detalle"

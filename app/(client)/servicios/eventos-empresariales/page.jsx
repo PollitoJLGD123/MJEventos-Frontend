@@ -1,6 +1,7 @@
 import React from 'react';
 import ServSec from '../components/ServSec';
 import Contactanos from '../components/Contactanos';
+import ModalButton from '../components/ModalButton';
 
 export default function EventosEmpresariales() {
     const targets = [
@@ -12,6 +13,13 @@ export default function EventosEmpresariales() {
 
     return (
         <>
+            <ModalButton
+            title="Lleva tu empresa al siguiente nivel"
+            fondo="/servicios/desarrollo/modal-button/imagen.webp"
+            text="DISEÑO Y DESARROLLO WEB"
+            serviceName="1"
+            />
+
             <ServSec
                 title="Eventos Empresariales"
                 subtitle="Protección y Elegancia en Cada Detalle"
