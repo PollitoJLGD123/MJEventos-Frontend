@@ -58,6 +58,12 @@ export default function Header2() {
                   <li className={isActive('/servicios/quince-eventos') ? 'active-sub' : ''} onClick={closeMenu}>
                     <Link href="/servicios/quince-eventos">Fiestas de Quince Años</Link>
                   </li>
+                  <li className={isActive('/servicios/bautizos') ? 'active-sub' : ''} onClick={closeMenu}>
+                    <Link href="/servicios/bautizos">Bautizos</Link>
+                  </li>
+                  <li className={isActive('/servicios/bodas') ? 'active-sub' : ''} onClick={closeMenu}>
+                    <Link href="/servicios/bodas">Bodas</Link>
+                  </li>
                 </ul>
               )}
             </li>
