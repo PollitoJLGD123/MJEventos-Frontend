@@ -5,9 +5,9 @@ export default function Pregunta({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <article className="border-l-4 pl-4 border-solid border-[#5c1787]">
+    <article className="border-l-4 pl-4 border-solid border-[#ea9d2f]">
       <h3 
-        className="font-bold text-[25px] cursor-pointer hover:text-[#5c1787]" 
+        className="font-bold text-[25px] cursor-pointer hover:text-[#ea9d2f]" 
         onClick={() => setIsOpen(!isOpen)}
       >
         {question}
