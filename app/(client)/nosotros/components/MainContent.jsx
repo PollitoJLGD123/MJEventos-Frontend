@@ -1,11 +1,9 @@
 'use client';
 
-import React, { useState } from 'react'
+import React from 'react'
+import { Accordion } from './Accordion';
 
 export const MainContent = () => {
-
-    const [showVision, setShowVision] = useState(false);
-    const [showMision, setShowMision] = useState(false);
 
     return (
         <div className="max-w-6xl mx-auto px-6 py-16 sm:px-8 lg:px-10">
@@ -21,36 +19,17 @@ export const MainContent = () => {
                 </p>
             </div>
             <div className="relative grid md:grid-cols-2 gap-16 mb-20">
-                {/* VISIÓN */}
-                <div
-                    className="group bg-white shadow-lg p-6 rounded-lg transition-transform transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
-                    onClick={() => setShowVision(!showVision)}
-                >
-                    <h3 className="text-2xl font-bold mb-4 text-gray-800 text-center">
-                        <span className="text-yellow-600">VISIÓN</span>
-                    </h3>
-                    {showVision && (
-                        <p className="text-gray-600 text-justify leading-relaxed">
-                            Liderar la transformación digital de las <strong>PYME</strong> en el Perú; estableciendo vínculos sólidos entre nuestros clientes y sus respectivas audiencias.
-                        </p>
-                    )}
-                </div>
-                {/* Divisor vertical */}
+                <Accordion title="VISIÓN" >
+                    <p className="text-gray-600 text-justify leading-relaxed">
+                        Ser aliado de los <strong>emprendimientos</strong> en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.
+                    </p>
+                </Accordion>
                 <div className="hidden md:block w-px bg-[#f1b647] absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2"></div>
-                {/* MISIÓN */}
-                <div
-                    className="group bg-white shadow-lg p-6 rounded-lg transition-transform transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
-                    onClick={() => setShowMision(!showMision)}
-                >
-                    <h3 className="text-2xl font-bold mb-4 text-gray-800 text-center">
-                        <span className="text-yellow-600">MISIÓN</span>
-                    </h3>
-                    {showMision && (
-                        <p className="text-gray-600 text-justify leading-relaxed">
-                            Ser aliado de los <strong>emprendimientos</strong> en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.
-                        </p>
-                    )}
-                </div>
+                <Accordion title="MISIÓN">
+                    <p className="text-gray-600 text-justify leading-relaxed">
+                        Liderar la transformación digital de las <strong>PYME</strong> en el Perú; estableciendo vínculos sólidos entre nuestros clientes y sus respectivas audiencias.
+                    </p>
+                </Accordion>
             </div>
         </div>
     )
