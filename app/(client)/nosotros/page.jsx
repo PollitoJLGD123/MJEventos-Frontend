@@ -12,13 +12,13 @@ import {
 const Nosotros = () => {
     return (
         <div className="min-h-screen bg-white">
-            <HeaderImage />
+            <HeaderImage img={"/Img-nosotros/NOSOTROS_1680_1050.webp"} />
 
             <MainContent />
 
             <ButtonWhatsapp />
 
-            <AdditionalImage />
+            <AdditionalImage img={"/Img-nosotros/infoNosotros.webp"} />
 
         </div>
     );

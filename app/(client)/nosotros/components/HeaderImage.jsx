@@ -2,11 +2,11 @@
 
 import React from 'react'
 
-export const HeaderImage = () => {
+export const HeaderImage = ({ img }) => {
     return (
         <div className="relative h-[400px] overflow-hidden">
             <img
-                src="/Img-nosotros/NOSOTROS_1680_1050.webp"
+                src={img}
                 alt="Background"
                 className="w-full h-full object-cover object-center"
             />
