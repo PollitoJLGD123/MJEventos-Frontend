@@ -1,8 +1,12 @@
 'use client';
 
-import React from 'react'
+import React, { useState } from 'react'
 
-export const MainContent = ({ setShowVision, showVision, setShowMision, showMision }) => {
+export const MainContent = () => {
+
+    const [showVision, setShowVision] = useState(false);
+    const [showMision, setShowMision] = useState(false);
+
     return (
         <div className="max-w-6xl mx-auto px-6 py-16 sm:px-8 lg:px-10">
             <div className="mb-20">
