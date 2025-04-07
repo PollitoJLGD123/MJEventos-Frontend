@@ -12,7 +12,7 @@ const servicesData = [
     { title: 'Aniversarios', image: '/image-home/nuestros-servicios/img-aniversario.jpg' },
 ];
 
-function ServicesSection() {
+export const ServicesSection = () => {
     return (
         <div className="services-main ">
             <div className="services-text">
@@ -34,5 +34,3 @@ function ServicesSection() {
 
     );
 }
-
-export default ServicesSection;
