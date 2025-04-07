@@ -4,11 +4,36 @@ import Link from 'next/link';
 import React from 'react';
 
 const whyChooseData = [
-  { title: 'Innovación', image: '/image-home/porque-elegirnos/inovacion.png', description: 'Diseños modernos y versátiles que se adaptan a cualquier estilo.' },
-  { title: 'Confianza', image: '/image-home/porque-elegirnos/confianza.png', description: 'Montajes seguros y resistentes para tu tranquilidad.' },
-  { title: 'Responsabilidad', image: '/image-home/porque-elegirnos/responsabilidad.png', description: 'Cumplimos con los tiempos de entrega y montaje.' },
-  { title: 'Excelencia', image: '/image-home/porque-elegirnos/excelencia.png', description: 'Cuidamos cada detalle para un acabado impecable.' },
-  { title: 'Elegancia', image: '/image-home/porque-elegirnos/elegancia.png', description: 'Creamos ambientes sofisticados y armoniosos.' },
+  {
+    title: 'Innovación',
+    image: '/image-home/porque-elegirnos/inovacion.png',
+    description: 'Diseños modernos y versátiles que se adaptan a cualquier estilo.',
+    href: '/servicios/desing-desarrollo'
+  },
+  {
+    title: 'Confianza',
+    image: '/image-home/porque-elegirnos/confianza.png',
+    description: 'Montajes seguros y resistentes para tu tranquilidad.',
+    href: '/servicios/gestion-redes'
+  },
+  {
+    title: 'Responsabilidad',
+    image: '/image-home/porque-elegirnos/responsabilidad.png',
+    description: 'Cumplimos con los tiempos de entrega y montaje.',
+    href: '/servicios/branding-desing'
+  },
+  {
+    title: 'Excelencia',
+    image: '/image-home/porque-elegirnos/excelencia.png',
+    description: 'Cuidamos cada detalle para un acabado impecable.',
+    href: '/servicios/marketing-gestion'
+  },
+  {
+    title: 'Elegancia',
+    image: '/image-home/porque-elegirnos/elegancia.png',
+    description: 'Creamos ambientes sofisticados y armoniosos.',
+    href: '/servicios/marketing-gestion'
+  },
 ];
 
 export const WhyChooseSection = () => {
@@ -23,7 +48,7 @@ export const WhyChooseSection = () => {
       <div className="services-4">
         <div className="services">
           {whyChooseData.map((feature, index) => (
-            <Link key={index} href="/servicios/desing-desarrollo" className="service">
+            <Link key={index} href={feature.href} className="service">
               <img src={feature.image} alt={feature.title} />
               <h3>{feature.title}</h3>
               <p>{feature.description}</p>

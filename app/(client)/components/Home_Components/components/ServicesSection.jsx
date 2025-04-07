@@ -4,12 +4,36 @@ import React from 'react';
 import Link from 'next/link';
 
 const servicesData = [
-    { title: 'Eventos empresariales', image: '/image-home/nuestros-servicios/img-eventos-empresariales.jpg' },
-    { title: 'Fiestas de quince años', image: '/image-home/nuestros-servicios/img-quince.jpg' },
-    { title: 'Bodas', image: '/image-home/nuestros-servicios/img-bodas.jpg' },
-    { title: 'Bautizos', image: '/image-home/nuestros-servicios/img-bautizo.jpg' },
-    { title: 'Cumpleaños', image: '/image-home/nuestros-servicios/img-cumple.jpg' },
-    { title: 'Aniversarios', image: '/image-home/nuestros-servicios/img-aniversario.jpg' },
+    {
+        title: 'Eventos empresariales',
+        image: '/image-home/nuestros-servicios/img-eventos-empresariales.jpg',
+        href: '/servicios/marketing-gestion'
+    },
+    {
+        title: 'Fiestas de quince años',
+        image: '/image-home/nuestros-servicios/img-quince.jpg',
+        href: '/servicios/marketing-gestion'
+    },
+    {
+        title: 'Bodas',
+        image: '/image-home/nuestros-servicios/img-bodas.jpg',
+        href: '/servicios/marketing-gestion'
+    },
+    {
+        title: 'Bautizos',
+        image: '/image-home/nuestros-servicios/img-bautizo.jpg',
+        href: '/servicios/marketing-gestion'
+    },
+    {
+        title: 'Cumpleaños',
+        image: '/image-home/nuestros-servicios/img-cumple.jpg',
+        href: '/servicios/marketing-gestion'
+    },
+    {
+        title: 'Aniversarios',
+        image: '/image-home/nuestros-servicios/img-aniversario.jpg',
+        href: '/servicios/marketing-gestion'
+    },
 ];
 
 export const ServicesSection = () => {
@@ -23,7 +47,7 @@ export const ServicesSection = () => {
             <div className="services-4">
                 <div className="flex gap-2">
                     {servicesData.map((service, index) => (
-                        <Link key={index} href="/" className="nuestroServicio">
+                        <Link key={index} href={service.href} className="nuestroServicio">
                             <img src={service.image} className="w-[150px]" alt={service.title} />
                             <h3 className="p-2">{service.title}</h3>
                         </Link>
