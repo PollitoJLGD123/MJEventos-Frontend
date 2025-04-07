@@ -1,51 +1,16 @@
+"use client";
+
 import React from 'react';
 import './services.css'
 import Link from 'next/link';
+import ServicesSection from './components/ServicesSection';
 function services() {
+
+
     return (
         <div className='bg-[#151515]'>
             <section id="services ">
-                <div className="services-main ">
-                    <div className="services-text">
-                        <h2 className='text-center text-[#f1b647]'>NUESTROS SERVICIOS</h2>
-                        <hr className="border-[#f1b647] border-2 w-[400px] mx-auto" />
-                        <p className='text-white text-center p-2'>Ofrecemos una amplia gama de mobiliario y accesorios para todo tipo de celebraciones:</p>
-                    </div>
-                    <div className="services-4">
-                        <div className="flex gap-2">
-                            <Link href="/" className="nuestroServicio">
-                                <img src="/image-home/nuestros-servicios/img-eventos-empresariales.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
-                                <h3 className='p-2'>Eventos empresariales</h3>
-                            </Link>
-
-                            <Link href="/" className="nuestroServicio">
-                                <img src="/image-home/nuestros-servicios/img-quince.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
-                                <h3 className='p-2'>Fiestas de quince años</h3>
-                            </Link>
-
-                            <Link href="/" className="nuestroServicio">
-                                <img src="/image-home/nuestros-servicios/img-bodas.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
-                                <h3 className='p-2'>Bodas</h3>
-                            </Link>
-
-                            <Link href="/" className="nuestroServicio">
-                                <img src="/image-home/nuestros-servicios/img-bautizo.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
-                                <h3 className='p-2'>Bautizos</h3>
-                            </Link>
-
-                            <Link href="/" className="nuestroServicio">
-                                <img src="/image-home/nuestros-servicios/img-cumple.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
-                                <h3 className='p-2'>Cumpleaños</h3>
-                            </Link>
-
-                            <Link href="/" className="nuestroServicio">
-                                <img src="/image-home/nuestros-servicios/img-aniversario.jpg" className='w-[150px]' alt="Diseño y Desarrollo Web" />
-                                <h3 className='p-2'>Aniversarios</h3>
-                            </Link>
-
-                        </div>
-                    </div> 
-                </div>
+                <ServicesSection />
                 <hr className="border-[#f1b647] border-2 w-[1200px] mx-auto" />
                 <div className="services-main ">
                     <div className="services-text">
@@ -88,8 +53,8 @@ function services() {
                         </div>
                     </div>
                     <div>
-                        <p className='text-white text-center'>"Confía en nosotros para tu próximo evento"</p>    
-                    </div> 
+                        <p className='text-white text-center'>"Confía en nosotros para tu próximo evento"</p>
+                    </div>
                     <hr className="border-[#f1b647] border-2 w-[1200px] mx-auto my-20" />
                 </div>
             </section>
