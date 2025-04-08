@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import './ServicesSection.css';
 
 const servicesData = [
     {
@@ -45,7 +46,7 @@ export const ServicesSection = () => {
                 <p className='text-white text-center p-2'>Ofrecemos una amplia gama de mobiliario y accesorios para todo tipo de celebraciones:</p>
             </div>
             <div className="services-4">
-                <div className="flex gap-2">
+                <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
                     {servicesData.map((service, index) => (
                         <Link key={index} href={service.href} className="nuestroServicio">
                             <img src={service.image} className="w-[150px]" alt={service.title} />
