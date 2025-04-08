@@ -10,7 +10,7 @@ export const HeaderImage = ({ img }) => {
                 alt="Background"
                 className="w-full h-full object-cover object-center"
             />
-            <div className="absolute inset-0 bg-[#f1b647] bg-opacity-50"></div>
+            <div className="absolute inset-0 bg-[#f1b647] bg-opacity-0"></div>
             <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
                     <div className="flex items-center justify-center mb-4">
