@@ -146,7 +146,11 @@ const ContactForm = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1.5 }}
         >
-          <button type="submit" disabled={loading}>
+          <button 
+            type="submit" 
+            disabled={loading}
+            style={{ backgroundColor: '#FFC107'}}
+          >
             {loading ? "Enviando..." : "Enviar mensaje"} <span className="icon">📩</span>
           </button>
         </motion.div>

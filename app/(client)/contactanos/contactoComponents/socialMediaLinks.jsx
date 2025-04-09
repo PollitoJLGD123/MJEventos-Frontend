@@ -20,7 +20,9 @@ const SocialMediaLinks = () => {
       style={{ overflow: "hidden" }}
     >
       <div className="tarjeta-redes">
-        <h3>Conéctate con nosotros</h3>
+        <h3
+          style={{ color: '#FFC107'}}
+        >Conéctate con nosotros</h3>
         <div className="contenedor-redes">
           <div className="red">
             <a href="https://www.facebook.com/DigiMedia.Marketing1" target="_blank" rel="noopener noreferrer">
