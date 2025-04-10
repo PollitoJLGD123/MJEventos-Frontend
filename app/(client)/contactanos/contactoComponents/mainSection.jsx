@@ -5,7 +5,7 @@ import SocialMediaLinks from "./socialMediaLinks";
 import { motion } from "framer-motion";
 
 const MainSection = () => (
-  <section className="mainSection" style={{ backgroundColor: "#FFC107" }}> 
+  <section className="mainSection" style={{ backgroundColor: "#fff" }}> 
     <div className="firstContent">
       <h2>
         <b className="subtitle">
