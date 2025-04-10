@@ -7,7 +7,7 @@ export const SocialMediaLink = ({ href, icon }) => {
     return (
         <div className="red">
             <a href={href} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={icon} size="2x" />
+                <FontAwesomeIcon icon={icon} size="3x" />
             </a>
         </div>
     );
