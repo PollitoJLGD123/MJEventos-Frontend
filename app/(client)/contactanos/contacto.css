@@ -69,7 +69,7 @@
 
 /* Linea */
 .sectionLine {
-    color: #7B22B3;
+    color: #FFC107;
 }
 
 /* Subtitulo */
@@ -321,7 +321,7 @@
 
 /* Título de la tarjeta */
 .tarjeta-redes h3 {
-    color: #7B22B3;
+    color: #FFC107;
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
